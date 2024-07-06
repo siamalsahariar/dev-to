@@ -1,9 +1,8 @@
 import Layout from "@/app/components/Layout";
 import { useState } from "react";
 
-const [isChecked, setIsChecked] = useState(true);
-
 const Login = () => {
+  const [isChecked, setIsChecked] = useState(true);
   return (
     <Layout>
       <section className="listings-layout">

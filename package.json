@@ -13,7 +13,7 @@
     "@eslint/object-schema": "^2.1.4",
     "@types/express": "^4.17.21",
     "express": "^4.19.2",
-    "glob": "^10.4.3",
+    "glob": "^7.2.3",
     "lru-cache": "^10.3.1",
     "next": "^14.2.4",
     "react": "^18",
