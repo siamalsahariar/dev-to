@@ -1,4 +1,7 @@
 import Layout from "@/app/components/Layout";
+import { useState } from "react";
+
+const [isChecked, setIsChecked] = useState(true);
 
 const Login = () => {
   return (
@@ -168,11 +171,12 @@ const Login = () => {
                     value="0"
                     autoComplete="off"
                   />
+
                   <input
-                    className="crayons-checkbox"
                     type="checkbox"
                     value="1"
-                    checked="checked"
+                    checked={isChecked}
+                    onChange={() => setIsChecked(!isChecked)}
                     name="user[remember_me]"
                     id="user_remember_me"
                   />
